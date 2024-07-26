@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PiyushChauhan3/weather-app.git/static/css/main.a2b67d50.css",
-    "main.js": "/PiyushChauhan3/weather-app.git/static/js/main.a6b2fe33.js",
-    "static/js/453.d758b70e.chunk.js": "/PiyushChauhan3/weather-app.git/static/js/453.d758b70e.chunk.js",
-    "index.html": "/PiyushChauhan3/weather-app.git/index.html",
-    "main.a2b67d50.css.map": "/PiyushChauhan3/weather-app.git/static/css/main.a2b67d50.css.map",
-    "main.a6b2fe33.js.map": "/PiyushChauhan3/weather-app.git/static/js/main.a6b2fe33.js.map",
-    "453.d758b70e.chunk.js.map": "/PiyushChauhan3/weather-app.git/static/js/453.d758b70e.chunk.js.map"
+    "main.css": "/PiyushChauhan3/weather-app/static/css/main.a2b67d50.css",
+    "main.js": "/PiyushChauhan3/weather-app/static/js/main.9149c5ce.js",
+    "static/js/453.d758b70e.chunk.js": "/PiyushChauhan3/weather-app/static/js/453.d758b70e.chunk.js",
+    "index.html": "/PiyushChauhan3/weather-app/index.html",
+    "main.a2b67d50.css.map": "/PiyushChauhan3/weather-app/static/css/main.a2b67d50.css.map",
+    "main.9149c5ce.js.map": "/PiyushChauhan3/weather-app/static/js/main.9149c5ce.js.map",
+    "453.d758b70e.chunk.js.map": "/PiyushChauhan3/weather-app/static/js/453.d758b70e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2b67d50.css",
-    "static/js/main.a6b2fe33.js"
+    "static/js/main.9149c5ce.js"
   ]
 }
