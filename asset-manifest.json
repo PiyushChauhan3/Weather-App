@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PiyushChauhan3/weather-app.git/static/css/main.a2b67d50.css",
+    "main.js": "/PiyushChauhan3/weather-app.git/static/js/main.a6b2fe33.js",
+    "static/js/453.d758b70e.chunk.js": "/PiyushChauhan3/weather-app.git/static/js/453.d758b70e.chunk.js",
+    "index.html": "/PiyushChauhan3/weather-app.git/index.html",
+    "main.a2b67d50.css.map": "/PiyushChauhan3/weather-app.git/static/css/main.a2b67d50.css.map",
+    "main.a6b2fe33.js.map": "/PiyushChauhan3/weather-app.git/static/js/main.a6b2fe33.js.map",
+    "453.d758b70e.chunk.js.map": "/PiyushChauhan3/weather-app.git/static/js/453.d758b70e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2b67d50.css",
+    "static/js/main.a6b2fe33.js"
+  ]
+}
