@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WeatherInfo = ({ data }) => {
-  const { name, sys, weather, main, wind } = data;
+  const { name, sys, weather, main, wind, temperatureC } = data;
 
   return (
     <div className="card SC">
@@ -10,7 +10,7 @@ const WeatherInfo = ({ data }) => {
           {name}, {sys.country}
         </h3>
         <p className="card-text">{weather[0].description}</p>
-        <h1 className="display-4">{main.temp}°F</h1>
+        <h1 className="display-4">{temperatureC.toFixed(2)}°C / {main.temp}°F</h1>
         <p className="card-text">
           Real feel: {main.feels_like}°F <br />
           Humidity: {main.humidity}% <br />

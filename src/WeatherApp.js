@@ -6,11 +6,9 @@ const defaultCities = [
    'Mumbai',
   'Surat',
   'Ahmedabad',
- 
 ];
 
 const WeatherApp = () => {
-  // const [query, setQuery] = useState('');
   const [weatherData, setWeatherData] = useState([]);
   const [topWeatherData, setTopWeatherData] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -53,28 +51,24 @@ const WeatherApp = () => {
     setLoading(false);
   };
 
-  // const handleSearch = (e) => {
-  //   e.preventDefault();
-  //   const city = e.target.elements.city.value;
-  //   fetchWeatherData(city);
-  //   setQuery(city);
-  // };
+  const fahrenheitToCelsius = (fahrenheit) => {
+    return ((fahrenheit - 32) * 5) / 9;
+  };
 
   return (
-    
     <div className="container">
       <h1 className="text-center my-4">Weather App</h1>
       <SearchBar fetchWeatherData={fetchWeatherData} />
-      
+
       {loading && <div className="loading">Loading weather data...</div>}
-      {!loading && notFound && <div className="not-found">No weather data found for.</div>}
+      {!loading && notFound && <div className="not-found">No weather data found for the searched city.</div>}
       {!loading && weatherData.length > 0 && (
         <div className="search-results">
           <h2 className="my-4">Search Results</h2>
           <div className="row">
             {weatherData.map((data) => (
               <div key={data.id} className="col-md-4 mb-4">
-                <WeatherInfo data={data} />
+                <WeatherInfo data={{ ...data, temperatureC: fahrenheitToCelsius(data.main.temp) }} />
               </div>
             ))}
           </div>
@@ -86,7 +80,7 @@ const WeatherApp = () => {
         {topWeatherData.length > 0 ? (
           topWeatherData.map((data) => (
             <div key={data.id} className="col-md-4 mb-4">
-              <WeatherInfo data={data} />
+              <WeatherInfo data={{ ...data, temperatureC: fahrenheitToCelsius(data.main.temp) }} />
             </div>
           ))
         ) : (
