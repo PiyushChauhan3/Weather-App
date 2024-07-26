@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* body {
+  background-color: #f8f9fa;
+} */
+
+h1 {
+  color: #000000;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+.SC {
+  width: 100%;
+}
+
+.form{
+  height: 50px;
+  width: 95%;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+.btn{
+  height: 50px;
+  width: 20%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
